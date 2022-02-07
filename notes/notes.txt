@@ -1,0 +1,22 @@
+- color
+- font
+- text style
+...
+
+
+Ref:
+https://style.helpscout.com/visual-elements/
+https://ux.mailchimp.com/patterns/color
+
+>> Upload to github & post here:
+https://discuss.codecademy.com/t/build-a-website-style-guide-challenge-project-html-css/462395
+
+
+====================
+Template by https://designerup.gumroad.com/l/notion-design-system-template
+
+Brand - Mission and Vision Statement
+Visual Design - Logo, Color palettes, Typography, Iconography, Illustrations, Accessibility standards, Grid and Layouts
+Content - Language, grammar and messaging guidelines
+Components - Visual examples and code snippets
+Resources - Downloadable libraries, fonts and more

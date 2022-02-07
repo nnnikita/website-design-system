@@ -1,0 +1,174 @@
+* {
+  /* border: 1px solid rgb(231, 197, 203); */
+}
+
+body {
+  font-family: Roboto, Arial, sans-serif;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 600px;
+  background-color: #efeff7;
+}
+
+::selection {
+  color: #fff;
+  background-color: #7d8c96;
+}
+
+/* --------------- text --------------- */
+
+h1, h2, h3, h4, h5, h6, p, a, li {
+  color: #1e2b30;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Slab';
+  font-weight: 500;
+  color: #a34854;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #1e2b30;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+p, a, li {
+  font-size: 16px;
+}
+
+/* --------------- nav --------------- */
+
+.nav {
+  padding: 0;
+  margin-top: -10px;
+}
+
+.nav li {
+  display: inline;
+}
+
+.nav li a {
+  text-decoration: none;
+}
+
+.nav li+li::before {
+  content: "/";
+  padding: 0 10px;
+}
+
+.nav li a:hover, .top:hover {
+  color: #7d8c96;
+}
+
+/* --------------- main --------------- */
+
+.card {
+  border-radius: 18px;
+  background-color: #fff;
+  padding: 15px 40px 25px;
+  margin: 30px 0;
+}
+
+/* --------------- color --------------- */
+
+.colors {
+  margin: 30px 0 20px;
+}
+
+.red, .white, .grey1, .grey2, .grey3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 80%;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 1.5rem;
+  text-align: center;
+  margin: -2px;
+}
+
+.red {
+  background-color: #a34854;
+  color: #fff;
+}
+
+.white {
+  background-color: #eff2f7;
+  color: #526671;
+}
+
+.grey1 {
+  background-color: #7d8c96;
+  color: #fff;
+}
+
+.grey2 {
+  background-color: #526671;
+  color: #fff;
+}
+
+.grey3 {
+  background-color: #1e2b30;
+  color: #fff;
+}
+
+/* --------------- button --------------- */
+
+.buttons {
+  display: inline-block;
+  width: 20%;
+  margin-bottom: 25px;
+}
+
+.button-def {
+  color: #fff;
+  background-color: #7d8c96;
+  text-decoration: none;
+  padding: 6px 0;
+  border-radius: 30px;
+  text-align: center;
+  margin-right: 20px;
+}
+
+.button-def:hover {
+  background-color: #526671;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.button-imp {
+  color: #fff;
+  background-color: #a34854;
+  text-decoration: none;
+  padding: 6px 0;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.button-imp:hover {
+  background-color: #7c242f;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+/* --------------- footer --------------- */
+
+footer {
+  margin-top: 50px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 14px;
+  color: #7d8c96;
+}
