@@ -2,6 +2,16 @@
   /* border: 1px solid rgb(231, 197, 203); */
 }
 
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 body {
   font-family: Roboto, Arial, sans-serif;
   margin: 0 auto;
@@ -17,12 +27,25 @@ body {
 
 /* --------------- text --------------- */
 
-h1, h2, h3, h4, h5, h6, p, a, li {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+li {
   color: #1e2b30;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Roboto Slab';
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto Slab";
   font-weight: 500;
   color: #a34854;
 }
@@ -41,7 +64,9 @@ h3 {
   font-size: 18px;
 }
 
-p, a, li {
+p,
+a,
+li {
   font-size: 16px;
 }
 
@@ -60,12 +85,13 @@ p, a, li {
   text-decoration: none;
 }
 
-.nav li+li::before {
+.nav li + li::before {
   content: "/";
   padding: 0 10px;
 }
 
-.nav li a:hover, .top:hover {
+.nav li a:hover,
+.top:hover {
   color: #7d8c96;
 }
 
@@ -84,7 +110,11 @@ p, a, li {
   margin: 30px 0 20px;
 }
 
-.red, .white, .grey1, .grey2, .grey3 {
+.red,
+.white,
+.grey1,
+.grey2,
+.grey3 {
   display: flex;
   justify-content: center;
   align-items: center;
